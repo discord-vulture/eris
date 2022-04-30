@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "es6",
+        "target": "es6",
+        "strict": true,
+        "moduleResolution": "node",
+        "noFallthroughCasesInSwitch": true,
+        "declaration": true,
+        "noUnusedLocals": true,
+        "esModuleInterop": true,
+        "outDir": "dist/esm",
+        "declarationDir": "dist/typings",
+        "noImplicitAny": false,
+        "exactOptionalPropertyTypes": false
+    },
+    "exclude": ["node_modules", "dist"],
+    "include": ["src"]
+  }
