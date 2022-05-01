@@ -5,7 +5,7 @@ export interface VultureOptionsData {
     token: string;
 };
 
-export class VultureOptions {
+export default class VultureOptions {
     public token?: string | undefined;
     public agent?: Agent;
     public allowedMentions?: AllowedMentions;

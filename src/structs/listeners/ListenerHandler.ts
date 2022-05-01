@@ -1,14 +1,14 @@
-import { ErisVulture } from "../ErisVulture";
-import { VultureHandler } from "../VultureHandler";
+import ErisVulture from "../ErisVulture";
+import VultureHandler from "../VultureHandler";
 import VultureModule from "../VultureModule";
-import { Listener } from "./Listener";
+import Listener from "./Listener";
 
 export interface ListenerHandlerOptions {
     directory: string;
     classInstance?: Function;
 };
 
-export class ListenerHandler extends VultureHandler {
+export default class ListenerHandler extends VultureHandler {
     constructor (client: ErisVulture, {
         directory,
         classInstance = Listener

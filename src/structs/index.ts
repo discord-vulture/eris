@@ -1,4 +1,7 @@
-export * from "./ErisVulture";
-export * from "./VultureHandler";
-export * from "./VultureModule";
-export * from "./listeners";
+export * as ErisVulture from "./ErisVulture";
+export * as VultureHandler from "./VultureHandler";
+export * as VultureModule from "./VultureModule";
+export * as Listener from "./listeners/Listener";
+
+// Handlers
+export * as ListenerHandler from "./listeners/ListenerHandler";

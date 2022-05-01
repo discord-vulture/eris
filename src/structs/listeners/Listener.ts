@@ -10,7 +10,7 @@ export interface ListenerOptions {
     emitter?: EmitterTypes;
 };
 
-export class Listener extends VultureModule {
+export default class Listener extends VultureModule {
     public name: keyof EventListeners;
     public once?: boolean;
     public emitter?: EmitterTypes;

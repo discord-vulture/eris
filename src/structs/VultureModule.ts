@@ -1,5 +1,5 @@
-import { ErisVulture } from "./ErisVulture";
-import { VultureHandler } from "./VultureHandler";
+import ErisVulture from "./ErisVulture";
+import VultureHandler from "./VultureHandler";
 
 export default class VultureModule {
     public id: string;

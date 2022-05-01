@@ -1,6 +1,6 @@
 import { Embed, EmbedAuthor, EmbedField, EmbedFooter, EmbedImage, EmbedProvider, EmbedVideo } from "eris";
 
-export class MessageEmbed implements Embed {
+export default class MessageEmbed implements Embed {
     public author?: EmbedAuthor | undefined;
     public footer?: EmbedFooter | undefined;
     public image?: EmbedImage | undefined;

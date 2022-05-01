@@ -1,4 +1,4 @@
-import { ErisVulture } from "./ErisVulture";
+import ErisVulture from "./ErisVulture";
 import VultureModule from "./VultureModule";
 import { Util } from "../utils/Util";
 import path from "path";
@@ -8,7 +8,7 @@ export interface VultureHandlerOptions {
     classInstance?: Function;
 };
 
-export class VultureHandler {
+export default class VultureHandler {
     public client: ErisVulture;
     public directory: string;
     public classInstance: Function;

@@ -1,6 +1,6 @@
 import { Client, ClientOptions } from "eris";
 
-export class ErisVulture extends Client {
+export default class ErisVulture extends Client {
     constructor (options: ClientOptions & { token: string }) {
         if (!options.token) {
             throw new TypeError("Client token is not specified");
